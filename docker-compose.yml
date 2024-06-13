@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    image: postgres:14
+    environment:
+      - POSTGRES_USER=prefect
+      - POSTGRES_PASSWORD=prefect_password
+      - POSTGRES_DB=prefect_app
+    ports:
+      - 5432:5432

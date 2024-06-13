@@ -1,0 +1,8 @@
+httpx
+prefect
+prefect-sqlalchemy
+psycopg2-binary
+python-dotenv
+yoyo-migrations
+flask
+flask_sqlalchemy
